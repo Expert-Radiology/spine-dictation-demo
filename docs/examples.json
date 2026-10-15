@@ -1,0 +1,140 @@
+{
+  "provenance": "Original fictional teaching examples. Preset transcript and extraction; reports rendered by the actual Python template renderer. Not patient results or clinical templates.",
+  "cases": [
+    {
+      "id": "lumbar",
+      "region": "Lumbar",
+      "title": "A finding and a blurb",
+      "dictation": "Use the lumbar demonstration template. At L4-5, a 2 mm posterior disc herniation. At L5-S1, use the demo height and signal blurb.",
+      "template": "MRI OF THE LUMBAR SPINE\nFINDINGS:\nAt L1-2, No disc herniation or canal stenosis.\nAt L2-3, No disc herniation or canal stenosis.\nAt L3-4, No disc herniation or canal stenosis.\nAt L4-5, No disc herniation or canal stenosis.\nAt L5-S1, No disc herniation or canal stenosis.\nIMPRESSION:\nNo focal abnormality.\n",
+      "rows": [
+        {
+          "level": "L1-2",
+          "before": "At L1-2, No disc herniation or canal stenosis.",
+          "after": "At L1-2, No disc herniation or canal stenosis.",
+          "kind": "preserved"
+        },
+        {
+          "level": "L2-3",
+          "before": "At L2-3, No disc herniation or canal stenosis.",
+          "after": "At L2-3, No disc herniation or canal stenosis.",
+          "kind": "preserved"
+        },
+        {
+          "level": "L3-4",
+          "before": "At L3-4, No disc herniation or canal stenosis.",
+          "after": "At L3-4, No disc herniation or canal stenosis.",
+          "kind": "preserved"
+        },
+        {
+          "level": "L4-5",
+          "before": "At L4-5, No disc herniation or canal stenosis.",
+          "after": "At L4-5, A 2 mm posterior disc herniation is present. No canal stenosis.",
+          "kind": "dictated"
+        },
+        {
+          "level": "L5-S1",
+          "before": "At L5-S1, No disc herniation or canal stenosis.",
+          "after": "At L5-S1, Disc height and signal are decreased. No disc herniation or canal stenosis.",
+          "kind": "blurb"
+        }
+      ],
+      "impression": "L4-5 posterior disc herniation.",
+      "blurb": "Demo height and signal blurb",
+      "warning": "",
+      "report": "MRI OF THE LUMBAR SPINE\nFINDINGS:\nAt L1-2, No disc herniation or canal stenosis.\nAt L2-3, No disc herniation or canal stenosis.\nAt L3-4, No disc herniation or canal stenosis.\nAt L4-5, A 2 mm posterior disc herniation is present. No canal stenosis.\nAt L5-S1, Disc height and signal are decreased. No disc herniation or canal stenosis.\nIMPRESSION:\nL4-5 posterior disc herniation.\n",
+      "renderer_state": "draft_requires_semantic_verification",
+      "audio": "audio/lumbar.m4a"
+    },
+    {
+      "id": "cervical",
+      "region": "Cervical",
+      "title": "Unclear wording stays flagged",
+      "dictation": "Use the cervical demonstration template. At C5-6, mild left neural foraminal narrowing. Add the demo small protrusion blurb, measurement unclear.",
+      "template": "MRI OF THE CERVICAL SPINE\nFINDINGS:\nAt C2-3, No disc herniation or canal stenosis.\nAt C3-4, No disc herniation or canal stenosis.\nAt C4-5, No disc herniation or canal stenosis.\nAt C5-6, No disc herniation or canal stenosis.\nAt C6-7, No disc herniation or canal stenosis.\nAt C7-T1, No disc herniation or canal stenosis.\nIMPRESSION:\nNo focal abnormality.\n",
+      "rows": [
+        {
+          "level": "C2-3",
+          "before": "At C2-3, No disc herniation or canal stenosis.",
+          "after": "At C2-3, No disc herniation or canal stenosis.",
+          "kind": "preserved"
+        },
+        {
+          "level": "C3-4",
+          "before": "At C3-4, No disc herniation or canal stenosis.",
+          "after": "At C3-4, No disc herniation or canal stenosis.",
+          "kind": "preserved"
+        },
+        {
+          "level": "C4-5",
+          "before": "At C4-5, No disc herniation or canal stenosis.",
+          "after": "At C4-5, No disc herniation or canal stenosis.",
+          "kind": "preserved"
+        },
+        {
+          "level": "C5-6",
+          "before": "At C5-6, No disc herniation or canal stenosis.",
+          "after": "At C5-6, Mild left neural foraminal narrowing is present. No disc herniation or canal stenosis.",
+          "kind": "dictated"
+        },
+        {
+          "level": "C6-7",
+          "before": "At C6-7, No disc herniation or canal stenosis.",
+          "after": "At C6-7, No disc herniation or canal stenosis.",
+          "kind": "preserved"
+        },
+        {
+          "level": "C7-T1",
+          "before": "At C7-T1, No disc herniation or canal stenosis.",
+          "after": "At C7-T1, No disc herniation or canal stenosis.",
+          "kind": "preserved"
+        }
+      ],
+      "impression": "Mild left neural foraminal narrowing at C5-6.",
+      "blurb": "Demo small protrusion blurb",
+      "warning": "The blurb needs a measurement. It is left unresolved; no size is invented.",
+      "report": "MRI OF THE CERVICAL SPINE\nFINDINGS:\nAt C2-3, No disc herniation or canal stenosis.\nAt C3-4, No disc herniation or canal stenosis.\nAt C4-5, No disc herniation or canal stenosis.\nAt C5-6, Mild left neural foraminal narrowing is present. No disc herniation or canal stenosis.\nAt C6-7, No disc herniation or canal stenosis.\nAt C7-T1, No disc herniation or canal stenosis.\nIMPRESSION:\nMild left neural foraminal narrowing at C5-6.\n",
+      "renderer_state": "draft_requires_semantic_verification",
+      "audio": "audio/cervical.m4a"
+    },
+    {
+      "id": "thoracic",
+      "region": "Thoracic",
+      "title": "A missing level is added",
+      "dictation": "Use the thoracic demonstration template. At T11-12, add a small posterior disc bulge.",
+      "template": "MRI OF THE THORACIC SPINE\nFINDINGS:\nAt T8-9, No disc herniation or canal stenosis.\nAt T9-10, No disc herniation or canal stenosis.\nAt T10-11, No disc herniation or canal stenosis.\nIMPRESSION:\nNo focal abnormality.\n",
+      "rows": [
+        {
+          "level": "T8-9",
+          "before": "At T8-9, No disc herniation or canal stenosis.",
+          "after": "At T8-9, No disc herniation or canal stenosis.",
+          "kind": "preserved"
+        },
+        {
+          "level": "T9-10",
+          "before": "At T9-10, No disc herniation or canal stenosis.",
+          "after": "At T9-10, No disc herniation or canal stenosis.",
+          "kind": "preserved"
+        },
+        {
+          "level": "T10-11",
+          "before": "At T10-11, No disc herniation or canal stenosis.",
+          "after": "At T10-11, No disc herniation or canal stenosis.",
+          "kind": "preserved"
+        },
+        {
+          "level": "T11-12",
+          "before": "Not present in this teaching template.",
+          "after": "At T11-12, A small posterior disc bulge is present.",
+          "kind": "added"
+        }
+      ],
+      "impression": "Small posterior disc bulge at T11-12.",
+      "blurb": "None mentioned",
+      "warning": "",
+      "report": "MRI OF THE THORACIC SPINE\nFINDINGS:\nAt T8-9, No disc herniation or canal stenosis.\nAt T9-10, No disc herniation or canal stenosis.\nAt T10-11, No disc herniation or canal stenosis.\nAt T11-12, A small posterior disc bulge is present.\nIMPRESSION:\nSmall posterior disc bulge at T11-12.\n",
+      "renderer_state": "draft_requires_semantic_verification",
+      "audio": "audio/thoracic.m4a"
+    }
+  ]
+}
